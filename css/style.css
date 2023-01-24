@@ -110,6 +110,9 @@ a:hover{
     color: rgb(54, 57, 63);
 }
 
+.purpleFont{
+    color: rgb(114, 137, 218);
+}
 /*classi font formattazione*/
 
 .title{
@@ -307,9 +310,16 @@ footer{
     width: 100%;
     padding:10px 0px 40px 0px;
 }
-
+.fColumnBig, .fColumnSmall{
+    padding: 35px;
+}
 .fColumnBig{
     width: 28%;
+    text-align:left;
+}
+
+.fColumnBig h2{
+    font-size: 30px;
 }
 
 .fColumnSmall{
