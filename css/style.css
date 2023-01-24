@@ -76,10 +76,10 @@ footer.debug{
     height: 100px;
 }
 
-.debug.footerBottomContainer{
-    /* height: 50px; */
-    /* background-color:antiquewhite; */
-}
+/* .debug.footerBottomContainer{
+    height: 50px; 
+    background-color:antiquewhite;
+} */
 
 
 /*actual CSS rules*/
@@ -87,7 +87,7 @@ footer.debug{
 /*GLOBAL RULES*/
 
 /*metti i container FLEX qui*/
-#headerTop, .headerTopContainer, div ul, .block, .info, .footerTop, .footerTopContainer, .footerBottom,  .footerBottomContainer{
+#headerTop, .headerTopContainer, .unorderedList, .block, .info, .footerTop, .footerTopContainer, .fColumnBig, .footerBottom,  .footerBottomContainer{
     display: flex;
 }
 
@@ -310,20 +310,46 @@ footer{
     width: 100%;
     padding:10px 0px 40px 0px;
 }
+
 .fColumnBig, .fColumnSmall{
     padding: 35px;
 }
 .fColumnBig{
+    flex-direction: column;
     width: 28%;
     text-align:left;
 }
 
+
+.fColumnBig a{
+    padding: 10px;
+}
+
+.fColumnBig img{
+    width:20px;
+}
 .fColumnBig h2{
     font-size: 30px;
 }
-
+.secondRow{
+    font-size:12px;
+    padding: 10px 0;
+}
 .fColumnSmall{
     width: 18%;
+}
+
+.listFooter{
+    text-align: left;
+    list-style: none;
+}
+
+.listFooter li{
+    padding:10px 0;
+
+}
+.listFooter > :first-child{
+    color: rgb(114, 137, 218);
 }
 
 .footerBottomContainer{
