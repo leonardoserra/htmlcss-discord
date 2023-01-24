@@ -29,7 +29,7 @@ body{
 } */
 
 .debug.headerBottomContainer{
-    /* background-color: pink; */
+    background-color: pink;
 }
 .debug.block{
     height: 400px;
@@ -56,12 +56,12 @@ body{
 
 footer.debug{
     height: 500px;
-    background-color: rgb(160, 58, 58);
+    /* background-color: rgb(160, 58, 58); */
 }
 
 .debug.footerTop{
     height: 400px;
-    background-color: rgb(0, 81, 255);
+    /* background-color: rgb(0, 81, 255); */
 }
 
 .debug.fColumnBig{
@@ -78,7 +78,7 @@ footer.debug{
 
 .debug.footerBottomContainer{
     /* height: 50px; */
-    background-color:antiquewhite;
+    /* background-color:antiquewhite; */
 }
 
 
@@ -157,6 +157,12 @@ a:hover{
 
 .arrow::before{
     content:url(../img/arrow-down.svg);
+}
+
+.button.purpleButton.whiteFont:hover {
+    color: white;
+    cursor: pointer;
+    box-shadow:0 0 10px 5px;
 }
 
 
@@ -271,16 +277,29 @@ header{
     text-align: center;
 }
 
+.finalTitle{
+    display: inline-block;
+    padding: 40px;
+    background-image: url(../img/stars.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+
+
+
 
 /*FOOTER*/
 
 footer{
+    background-color: rgb(54, 57, 63);
     text-align: center;
     width: 100%;
 }
 
 .footerTopContainer{
     width: 80%;
+    border-bottom: 2px solid rgb(114, 137, 218);
 }
 
 .footerTop{
@@ -303,7 +322,6 @@ footer{
     align-items: center;
 }
 .footerBottom{
-    border-top: 2px solid black;
-    align-items: center;
+    padding: 20px;
     justify-content: center;
 }
