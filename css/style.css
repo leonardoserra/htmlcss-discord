@@ -29,7 +29,7 @@ body{
 } */
 
 .debug.headerBottomContainer{
-    background-color: pink;
+    /* background-color: pink; */
     height: 250px;
 }
 .debug.block{
@@ -175,15 +175,29 @@ header{
     margin: 0 10px;
 }
 
+/*header bottom*/
+
 #headerBottom{
     text-align: center;
     padding: 50px;
-    /* vertical-align: middle; */
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 .headerBottomContainer{
     display: inline-block;
     min-width: 70%;
 }
+
+.headerBottomContainer .title{
+    font-size: 45px;
+    padding: 25px;
+}
+
+.headerBottomContainer .description{
+    font-size:20px;
+    line-height: 35px;
+}
+
 
 
 /*MAIN*/
