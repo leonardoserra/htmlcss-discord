@@ -110,6 +110,18 @@ a:hover{
     color: rgb(54, 57, 63);
 }
 
+/*classi font formattazione*/
+
+.title{
+    font-size: 42px;
+    padding: 25px;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 20px;
+}
 /*regole buttons*/
 
 
@@ -140,7 +152,7 @@ a:hover{
 }
 
 .big{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .arrow::before{
@@ -199,16 +211,6 @@ header{
     height: 430px;
 }
 
-.headerBottomContainer .title{
-    font-size: 45px;
-    padding: 25px;
-}
-
-.headerBottomContainer .description{
-    font-size: 20px;
-    line-height: 35px;
-    margin-bottom: 20px;
-}
 
 #headerBottom .button{
     margin: 0 7px;
@@ -224,12 +226,16 @@ header{
     align-items: center;
 }
 
-.greyBackground {
-    background-color: grey;
+.block .title, .block .description{
+    padding: 20px 0;
+}
+.whiteBackground {
+    background-color: white;
+    /* background-image: url(../img/wave.svg); */
 }
 
-.whiteBackground{
-    background-color: white;
+.greyBackground{
+    background-color: rgb(246, 246, 246);
     
 }
 .info.reverse{
@@ -237,7 +243,9 @@ header{
 }
 .info{
     width: 75%;
-    height: 300px;
+    justify-content: center;
+    align-items: center;
+    /* height: 300px; */
 }
 
 .info > .columnBig{
@@ -246,6 +254,7 @@ header{
 
 .info > .columnSmall{
     width: 40%;
+    padding: 20px;
 }
 
 .lastBlock{
