@@ -266,7 +266,8 @@ header{
 
 .quadratoFinale{
     width: 80%;
-    margin: 45px auto;
+    margin: auto;
+    padding: 35px;
     text-align: center;
 }
 
