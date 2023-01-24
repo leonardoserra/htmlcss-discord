@@ -240,10 +240,15 @@ header{
 }
 .whiteBackground {
     background-color: white;
-    /* background-image: url(../img/wave.svg); */
+    background-position-y: bottom;
+    background-repeat:no-repeat ;
+    background-image: url(../img/wave.svg);
 }
 
 .greyBackground{
+    background-position-y: bottom;
+    background-repeat:no-repeat ;
+    background-image: url(../img/wave-white.svg);
     background-color: rgb(246, 246, 246);
     
 }
