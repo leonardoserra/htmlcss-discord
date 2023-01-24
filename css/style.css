@@ -5,11 +5,15 @@
     box-sizing: border-box;
 }
 
-/*DEBUG*/
-#headerTop.debug{
-    background-color: rgb(0, 198, 132);
-    /* height: 50px; */
+body{
+    font-family: 'Noto Sans', sans-serif;
 }
+
+/*DEBUG*/
+/* #headerTop.debug{
+    background-color: rgb(0, 198, 132);
+    height: 50px;
+} */
 
 .debug#headerBottom{
     background-color: blue;
@@ -20,9 +24,9 @@
     border: 2px dotted red;
 }
 
-.debug.headerTopContainer{
+/* .debug.headerTopContainer{
     background-color: yellow;
-}
+} */
 
 .debug.headerBottomContainer{
     background-color: pink;
@@ -81,11 +85,33 @@ footer.debug{
 
 /*actual CSS rules*/
 
+/*GLOBAL RULES*/
+
 /*metti i container FLEX qui*/
 #headerTop, .headerTopContainer, div ul, .block, .info, .footerTop, .footerTopContainer, .footerBottom,  .footerBottomContainer{
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
+/*palette colori fonts*/
+
+.whiteFont{
+    color: white;
+}
+
+.blackFont{
+    color: black;
+}
+
+
+/*HEADER*/
+
+header{
+    background-color: rgb(37, 94, 233);
+}
 
 #headerTop{
     width: 100%;
@@ -95,15 +121,26 @@ footer.debug{
 
 .headerTopContainer{
     justify-content:space-between;
+    align-items: center;
     padding: 5px;
     min-width: 75%;
 }
+
+.headerTopContainer.logo{
+    width: 50px;
+}
+
+.unorderedList{
+    justify-self: space-between;
+}
+
 .unorderedList li{
     list-style: none;
+    padding: 0 20px;
 }
 
 .unorderedList a{
-    padding: 0 35px;
+    margin: 0 10px;
 }
 
 #headerBottom{
@@ -115,6 +152,9 @@ footer.debug{
     display: inline-block;
     min-width: 70%;
 }
+
+
+/*MAIN*/
 
 .block{
     width: 100%;
@@ -155,6 +195,10 @@ footer.debug{
     margin: 45px auto;
     text-align: center;
 }
+
+
+/*FOOTER*/
+
 footer{
     text-align: center;
     width: 100%;
