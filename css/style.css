@@ -353,7 +353,7 @@ footer{
     padding:10px 0;
 
 }
-.listFooter > :first-child{
+.listFooter > li:first-child{
     color: rgb(114, 137, 218);
 }
 
@@ -365,4 +365,5 @@ footer{
 .footerBottom{
     padding: 20px;
     justify-content: center;
+    
 }
